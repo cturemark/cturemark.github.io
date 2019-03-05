@@ -3,8 +3,35 @@ html body{
   margin-right: 20px;
   margin-top: -10px;
   background-color: #BB1947;
+                -webkit-animation: bgcolor 20s infinite;
+                animation: bgcolor 10s infinite;
+                -webkit-animation-direction: alternate;
+                animation-direction: alternate;
   /* background-color: #248f8f; */
 }
+
+                @keyframes bgcolor {
+                    0% {
+                        background-color: #77001A
+                    }
+
+                    30% {
+                        background-color: #EC6A86
+                    }
+
+                    60% {
+                        background-color: #D43F5F
+                    }
+
+                    90% {
+                        background-color: #9B0A29
+                    }
+
+                    100% {
+                        background-color: #77001A
+                    }
+                }
+
 
 #site-about{
   background-color: #248f8f;
@@ -30,6 +57,10 @@ html body{
 .start-info{
   background-color: #BB1947;
   height: 900px;
+  -webkit-animation: bgcolor 20s infinite;
+  animation: bgcolor 10s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
 
 }
 
