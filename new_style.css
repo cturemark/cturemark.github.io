@@ -3,8 +3,8 @@ html body{
   margin-right: 20px;
   margin-top: -10px;
   background-color: #BB1947;
-                -webkit-animation: bgcolor 20s infinite;
-                animation: bgcolor 10s infinite;
+                -webkit-animation: bgcolor 30s infinite;
+                animation: bgcolor 20s infinite;
                 -webkit-animation-direction: alternate;
                 animation-direction: alternate;
   /* background-color: #248f8f; */
@@ -57,19 +57,21 @@ html body{
 .start-info{
   background-color: #BB1947;
   height: 900px;
-  -webkit-animation: bgcolor 20s infinite;
-  animation: bgcolor 10s infinite;
-  -webkit-animation-direction: alternate;
-  animation-direction: alternate;
+                  -webkit-animation: bgcolor 30s infinite;
+                  animation: bgcolor 20s infinite;
+                  -webkit-animation-direction: alternate;
+                  animation-direction: alternate;
 
 }
 
+/* INFOTEXT START! */
 h3{
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  margin-left: 100px;
+  /* margin-left: 100px; */
   margin-right: 10px;
+  padding-left: 150px;
   padding-top: 30px;
   line-height: 32px;
   font-size: 40px;
@@ -80,6 +82,7 @@ h3{
   margin-top: 87px;
     line-height: 50px;
 }
+
 h4{
   display: flex;
   flex-direction: row;
