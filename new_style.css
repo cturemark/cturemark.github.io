@@ -146,7 +146,7 @@ h2{
   font-weight: 700;
   font-style: normal;
   font-size: 30px;
-} 
+}
 
 
 hr {
@@ -276,5 +276,59 @@ img:hover {
 
 /* For mobile */
     @media (max-width: 600px) {
+
+      html body{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: -10px;
+}
+
+      h3{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        /* margin-left: 100px; */
+        margin-right: 10px;
+        padding-left: 0px;
+        padding-top: 30px;
+        line-height: 32px;
+        font-size: 30px;
+        color:#ffffff;
+        font-family: serif;
+        /* font-weight: 300; */
+        margin: 0px;
+        margin-top: 87px;
+          line-height: 50px;
+                font-family: ivymode, sans-serif;
+                font-weight: 700;
+                font-style: normal;
+      }
+
+    h4{
+      display: none;
+    }
+
+    h2 {
+      display: none;
+    }
+
+    p{
+      display: none;
+    }
+
+  img{
+      width:90%;
+  }
+
+    .box-images {
+      display: flex;
+      flex-direction: row;
+      /* align-items: flex-start; */
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      margin-left: 0px;
+      margin-top: -11px;
+      /*width: 200px; */
+    }
 
 }
