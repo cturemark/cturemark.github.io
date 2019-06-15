@@ -217,7 +217,7 @@ a:active {
 
 .box-images {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   /* align-items: flex-start; */
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -236,7 +236,7 @@ a:active {
 .image1{
   margin-left: 40px;
   margin-top: 40px;
-
+  width:160%;
 }
 
 img {
