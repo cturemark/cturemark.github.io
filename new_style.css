@@ -2,7 +2,7 @@ html body{
   margin-left: 40px;
   margin-right: 20px;
   margin-top: -10px;
-  background-color: #BB1947;
+  background-color: #FA7D87;
                 -webkit-animation: bgcolor 30s infinite;
                 animation: bgcolor 20s infinite;
                 -webkit-animation-direction: alternate;
@@ -12,7 +12,7 @@ html body{
 
                 @keyframes bgcolor {
                     0% {
-                        background-color: #77001A
+                        background-color: ##FA7D87
                     }
 
                     30% {
@@ -20,15 +20,15 @@ html body{
                     }
 
                     60% {
-                        background-color: #D43F5F
+                        background-color: #7A3D42
                     }
 
                     90% {
-                        background-color: #9B0A29
+                        background-color: #C7646C
                     }
 
                     100% {
-                        background-color: #77001A
+                        background-color: #7A494E
                     }
                 }
 
@@ -55,8 +55,8 @@ html body{
 }
 
 .start-info{
-  background-color: #BB1947;
-  height: 900px;
+  background-color: #FA7D87;
+  height: 500px;
                   -webkit-animation: bgcolor 30s infinite;
                   animation: bgcolor 20s infinite;
                   -webkit-animation-direction: alternate;
@@ -65,6 +65,21 @@ html body{
 }
 
 /* INFOTEXT START! */
+
+h2{
+  margin-left: 20px;
+  font-family: ivymode, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  background-color: #000000;
+  border: 3px;
+  padding: 10px;
+  background-clip: border-box;
+
+  color: #ffffff;
+}
+
 h3{
   display: flex;
   flex-direction: row;
@@ -101,6 +116,31 @@ h4{
   margin: 20px;
   margin-top: 87px;
     line-height: 200px;
+}
+
+
+h5{
+  margin-left: 150px;
+  margin-top: 70px;
+  margin-bottom: 0px;
+  font-family: ivymode, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 150px;
+  line-height: 0.9;
+  /*background-color: #000000;*/
+  padding: 10px;
+  color: #ffffff;
+}
+
+h6 {
+  margin-left: 150px;
+  margin-top: 0px;
+  font-family: avenir, sans-serif;
+  font-weight: normal;
+  font-size: 25px;
+  padding: 10px;
+  color: #ffffff;
 }
 
 .text-top{
@@ -142,16 +182,7 @@ p{
   text-align: center;
 }
 
-h2{
-  margin-left: 20px;
-  font-family: ivymode, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 20px;
-  background-color: #000000;
-  padding: 10px;
-  color: #ffffff;
-}
+
 
 
 hr {
@@ -162,17 +193,18 @@ hr {
     margin-end: auto;
     overflow: hidden;
     border-style: solid;
-    border-width: 3px;
+    border-width: 5px;
     width: 80%;
     align; center;
+    color: #ffffff;
 }
 
 /* LINK */
 a{
   font-size: 25px;
-  color:#B5B5B5;
-  font-family: serif;
-  font-weight: 900;
+  color:#FA7D87;
+  font-family: ivymode, sans-serif;
+  font-weight: 700;
   margin: 20px;
   margin-top: 87px;
   text-decoration: none;
@@ -239,22 +271,32 @@ a:active {
   margin-left: 500px;
 }
 
+/* IMAGES START PAGE*/
 .image1{
   margin-left: 0px;
   margin-top: 40px;
   width:90%;
 }
 
+/* IMAGES STÅENDE INDIVIDUAL PAGES*/
 .image3{
   margin-left: 340px;
   margin-top: 40px;
   width:60%;
 }
 
+/* IMAGES INDIVIDUAL PAGES*/
+.image4{
+  margin-left: 200px;
+  margin-top: 10px;
+  width:90%;
+}
+
 img {
   display:flex;
   flex-direction: row;
   width:70%;
+  margin-left: 0px;
 
 }
 
@@ -266,8 +308,10 @@ img {
 footer {
   display: flex;
   justify-content: center;
-  font-family: serif;
+  font-family: avenir, sans-serif;
+  font-weight: normal;
   font-size: 14px;
+
 }
 
 img:hover {
@@ -285,6 +329,12 @@ img:hover {
 .contact-box{
   margin-top: 300px;
 }
+
+
+
+
+
+
 
 /* RESPONSIVE */
 
