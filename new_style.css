@@ -501,7 +501,7 @@ img:hover {
 
 
                                       /* For ipad */
-                                          @media (max-width: 1400px) {
+                                          @media (max-width: 1400px, min-width; 600px) {
 
                                             html body{
                                               margin-left: 20px;
