@@ -104,9 +104,6 @@ h3{
 }
 
 h4{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
   margin-left: 200px;
   margin-right: 10px;
   padding-top: 60px;
@@ -117,6 +114,12 @@ h4{
   font-weight: normal;
   margin-top: 87px;
   line-height: 1.3;
+}
+
+.textblock{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
 /* RUBRIK STARTSIDA*/
