@@ -465,6 +465,7 @@ img:hover {
                     width: 100%;
                     padding-top: 60px;
                     padding-bottom: 50px;
+                      padding-top: 30px;
                   }
 
                   .box-p1{
@@ -573,6 +574,9 @@ img:hover {
                     text-align: left;
                     margin-left: 10%;
                     padding: 0px;
+                    padding-top: 15%;
+                    word-wrap: break-word;
+                    width: 80%;
                   }
 
                   footer {
