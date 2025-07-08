@@ -412,6 +412,7 @@ td {
 }
 
 footer {
+  color: #d3d3d3;
   display: flex;
   justify-content: center;
   font-family: avenir, sans-serif;
