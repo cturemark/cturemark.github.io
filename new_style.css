@@ -97,6 +97,7 @@ h3{
   font-size: 16px;
   line-height: 1.3;
   color:#000000;
+  margin-left: 100px;
 }
 
 h4{
@@ -505,7 +506,9 @@ img:hover {
                     font-family: avenir, sans-serif;
                     font-weight: normal;
                     word-wrap:break-all;
-                    width: 400px;
+                    width: 90%;
+                    margin-left: 0px;
+              
                   }
 
                   h4{
@@ -556,16 +559,18 @@ img:hover {
                   }
 
                   /* LINK */
-                  a{
+                  a, a:link, a:visited{
 
                     font-size: 15px;
-                    color:##000000;
+                    color:#000000;
                     font-family: avenir, sans-serif;
                     font-weight: normal;
                     margin: 10px;
-                    margin-top: 40px;
+                    margin-top: 0px;
+                    margin-bottom: -10px;
                     text-decoration: none;
                   }
+                  
 
                   p{
                     font-family:avenir, sans-serif;
@@ -581,11 +586,11 @@ img:hover {
                   }
 
                   footer {
-
                     justify-content: center;
                     font-family: avenir, sans-serif;
                     font-weight: normal;
                     font-size: 15px;
+                   
                   }
 
                     .image1{
@@ -614,9 +619,9 @@ img:hover {
 
                     /* CT IKONEN*/
                   .icon{
-                    margin-left: 5px;
-                    margin-top: 5px;
-                    width: 15%;
+                    margin-left: 0px;
+                    margin-top: 0px;
+                    width: 10%;
                   }
 
                   .table-center{
@@ -625,7 +630,7 @@ img:hover {
                       justify-content: center;
                       word-wrap: break-all;
                       width: 100%;
-                      margin: 50px;
+                      margin: 20px;
                   }
 
                     .box-art{
@@ -648,7 +653,6 @@ img:hover {
                   }
 
                   }
-
 
                                       /* For ipad */
                                           @media  (max-width: 1400px)and (min-width: 601px){
